@@ -6,7 +6,7 @@ get '/send' do
     To: <input type="email" name="to_input"><br>
     From: <input type="email" name="from_input"><br>
     Subject: <input type="text" name="sub_input"><br><br>
-    Content: <textarea cols="20" rows="15" name="ctnt_input"></textarea><br><br>
-    <button name="submit" type="submit">Send</button>
+    Content:<br><textarea cols="20" rows="15" name="ctnt_input"></textarea><br><br>
+    <button type="submit">Send</button>
   </form>'
 end
